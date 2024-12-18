@@ -76,7 +76,7 @@ button {
 }
 
 .password {
-  font-size: 16;
+  font-size: 15;
   width: 211;
   height: 39px;
   background-color: #273549;
@@ -84,6 +84,7 @@ button {
   border-radius: 6px;
   line-height: 39px;
   text-align: center;
+  overflow: hidden;
 }
 
 hr {
