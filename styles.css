@@ -66,7 +66,6 @@ button {
   font-weight: 300;
   color: white;
   background-color: #10b981;
-  margin-bottom: 20;
 }
 
 .passwords-container {
@@ -91,6 +90,43 @@ hr {
   border: none;
   border-top: 2px solid #d5d4d8; /* Customize color and thickness */
   width: 100%; /* Ensure it spans the container */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.length-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+input {
+  width: 30px;
+  border: #10b981;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: #273549;
+  color: #5def92;
+}
+
+.toggle {
+  border: solid;
+  border-color: #10b981;
+  width: fit-content;
+}
+
+label {
+  font-family: "Inter";
+  color: #6b7280;
+  font-size: 17px;
+  font-weight: 250;
 }
 
 @font-face {

@@ -13,8 +13,16 @@
           <h1 class="t2">random password</h1>
         </div>
         
-        <p class="p">Never use an insecure password again</p>
-        <button onclick="createPasswords()">Generate passwords</button>
+        <p class="p">Never use an insecure password again.</p>
+        <div class="input-container">
+          <input class="toggle" type="button" value="Symbol">
+          <input class="toggle" type="button" value="Number">
+          <div class="length-container">
+            <label>Length</label>
+            <input value="15">
+          </div>
+          <button onclick="createPasswords()">Generate passwords</button>
+        </div>
         <hr>
         <div class="passwords-container">
           <p id="p1" class="password">>nfJjy!dDvR&ial</p>
