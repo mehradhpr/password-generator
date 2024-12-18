@@ -108,7 +108,7 @@ hr {
 }
 
 input {
-  width: 30px;
+  width: 50px;
   border: #10b981;
   border-radius: 6px;
   padding: 5px;
@@ -119,6 +119,8 @@ input {
 .toggle {
   border: solid;
   border-color: #10b981;
+  background-color: #10b981;
+  color: #273549;
   width: fit-content;
 }
 

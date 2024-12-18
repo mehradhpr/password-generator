@@ -15,18 +15,18 @@
         
         <p class="p">Never use an insecure password again.</p>
         <div class="input-container">
-          <input class="toggle" type="button" value="Symbol">
-          <input class="toggle" type="button" value="Number">
+          <input onclick="updateSymbol()" class="toggle" type="button" value="Symbol" id="st">
+          <input onclick="updateNumber()" class="toggle" type="button" value="Number" id="nt">
           <div class="length-container">
             <label>Length</label>
-            <input value="15">
+            <input onchange="updateLength(this.value)" type="number" value="15" max="15" min="1">
           </div>
           <button onclick="createPasswords()">Generate passwords</button>
         </div>
         <hr>
         <div class="passwords-container">
-          <p id="p1" class="password">>nfJjy!dDvR&ial</p>
-          <p id="p2" class="password">>nfJjy!dDvR&ial</p>
+          <p id="p1" onclick="copyToClipboard(this.id)" class="password"></p>
+          <p id="p2" onclick="copyToClipboard(this.id)" class="password"></p>
         </div>
       </div>
       
