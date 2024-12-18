@@ -7,4 +7,97 @@ body {
 
 main {
   background-color: #ecfdf5;
+  width: 550;
+  height: 550;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 446;
+}
+
+.title-container {
+  width: fit-content;
+  height: 80;
+}
+
+h1 {
+  font-family: "Karla";
+  font-weight: bolder;
+  font-size: 40;
+  letter-spacing: -5%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: -10;
+}
+
+.t1 {
+  color: #2b283a;
+}
+
+.t2 {
+  color: #10b981;
+}
+
+p {
+  font-family: "Inter";
+  color: #6b7280;
+  font-size: 20px;
+  font-weight: 250;
+}
+
+.p {
+  margin-top: 5;
+  margin-bottom: 50;
+}
+
+button {
+  width: 191;
+  height: 42;
+  border-radius: 6px;
+  border: transparent;
+  font-family: "Inter";
+  font-size: 16;
+  font-weight: 300;
+  color: white;
+  background-color: #10b981;
+  margin-bottom: 20;
+}
+
+.passwords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.password {
+  font-size: 16;
+  width: 211;
+  height: 39px;
+  background-color: #273549;
+  color: #5def92;
+  border-radius: 6px;
+  line-height: 39px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #d5d4d8; /* Customize color and thickness */
+  width: 100%; /* Ensure it spans the container */
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("Karla-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("Inter-VariableFont_opsz,wght.ttf");
 }
